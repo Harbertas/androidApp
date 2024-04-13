@@ -10,7 +10,11 @@ App is in an early development state, but once developed it will have these feat
 - [ ] possibility to group todos.
 
 ## Application interface view
+
 ### Light theme
-![alt text](Screenshot_20240414_012019.jpg)
+
+<img src="Screenshot_20240414_012019.jpg" width="60%" height="30%">
+
 ### Dark theme
-![alt text](Screenshot_20240414_012028.jpg)
+
+<img src="Screenshot_20240414_012028.jpg" width="60%" height="30%">
