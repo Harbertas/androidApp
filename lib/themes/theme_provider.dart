@@ -15,7 +15,13 @@ class ThemeProvider extends ChangeNotifier {
   Future<void> _initializeTheme() async {
     bool? isLightMode = await readTheme('theme');
     if (isLightMode != null) {
-      isLightMode == true ? _themeData = lightMode : _themeData = darkMode;
+      if (isLightMode) {
+        _themeData = lightMode;
+        lightTheme = true;
+      } else {
+        themeData = darkMode;
+        lightTheme = false;
+      }
       notifyListeners();
     }
   }
