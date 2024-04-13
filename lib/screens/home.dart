@@ -55,6 +55,10 @@ class Home extends ConsumerWidget {
                               ref.watch(todoProvider).handleToDoChange(todoo),
                           onDeleteItem: ref.read(todoProvider).deleteToDoItem,
                         ),
+                      Container(
+                        color: Theme.of(context).colorScheme.background,
+                        height: 60,
+                      ),
                     ],
                   ),
                 )
