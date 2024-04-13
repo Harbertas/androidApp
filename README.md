@@ -1,2 +1,3 @@
-# androidApp
-AndroidApp for mobile app programming course
+# todo_app
+
+A new Flutter project.
