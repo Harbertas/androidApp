@@ -13,8 +13,8 @@ App is in an early development state, but once developed it will have these feat
 
 ### Light theme
 
-<img src="Screenshot_20240414_012019.jpg" width="60%" height="30%">
+<img src="Screenshot_20240414_012019.jpg" width="40%" height="50%">
 
 ### Dark theme
 
-<img src="Screenshot_20240414_012028.jpg" width="60%" height="30%">
+<img src="Screenshot_20240414_012028.jpg" width="40%" height="10%">
