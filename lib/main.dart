@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:timezone/data/latest.dart' as tz;
+
 import 'package:todo_tracker/themes/theme_provider.dart';
+import 'Services/notifi_service.dart';
 import './screens/home.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  NotificationService().initNotification();
+  tz.initializeTimeZones();
   runApp(
     ProviderScope(
       child: MyApp(),
