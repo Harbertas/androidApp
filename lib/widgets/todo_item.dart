@@ -64,6 +64,7 @@ class ToDoItem extends StatelessWidget {
                 ),
                 DatePickerIcon(
                   notificationText: todo.todoText,
+                  id: todo.id,
                 ),
               ],
             ),

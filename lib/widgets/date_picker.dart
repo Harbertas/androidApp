@@ -8,9 +8,11 @@ DateTime scheduleTime = DateTime.now();
 class DatePickerIcon extends StatelessWidget {
   DateTime scheduleTime = DateTime.now();
   final String? notificationText;
+  final String? id;
   DatePickerIcon({
     super.key,
-    this.notificationText,
+    required this.notificationText,
+    required this.id,
   });
 
   @override
@@ -26,6 +28,7 @@ class DatePickerIcon extends StatelessWidget {
           onChanged: (date) => scheduleTime = date,
           onConfirm: (date) {
             NotificationService().scheduleNotification(
+                id: int.parse(id.toString()),
                 title: 'Scheduled Notification',
                 body: '$notificationText',
                 scheduledNotificationDateTime: scheduleTime);
