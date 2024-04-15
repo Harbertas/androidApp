@@ -7,6 +7,7 @@ A ToDo list app for **saving** todos, **marking** them as done and **deleting** 
 App is in an early development state, but once developed it will have these features:
 - [x] switch between light and dark theme with option to save theme configuration.
 - [x] cache todo and the state of it in the local storage.
+- [x] add notification feature.
 - [ ] possibility to group todos.
 
 ## Application interface view
@@ -18,3 +19,11 @@ App is in an early development state, but once developed it will have these feat
 ### Dark theme
 
 <img src="Screenshot_20240414_012028.jpg" width="40%" height="10%">
+
+### Notification bar
+
+<img src="Screenshot_20240416_002733.jpg" width="40%" height="10%">
+
+### Notification example
+
+<img src="Screenshot_20240416_002817_One UI Home.jpg" width="40%" height="10%">
